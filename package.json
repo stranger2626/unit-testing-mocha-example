@@ -1,0 +1,21 @@
+{
+  "name": "unit-testing-mocha-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Matsvei.Murashka",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^7.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
