@@ -23,7 +23,7 @@ class NumbersValidator {
       // eslint-disable-next-line max-len
       throw new Error(`[${number}] is not of type "Number" it is of type "${typeOfVariable}"`);
     } else {
-      return n % 2 === 0;
+      return number % 2 === 0;
     }
   };
 };
