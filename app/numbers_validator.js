@@ -26,6 +26,23 @@ class NumbersValidator {
       return number % 2 === 0;
     }
   };
+
+  /**
+   *
+   *
+   * @param {Arra<Number>} arrayOfNumbers array of numbers to go through
+   * @return {Array<Number>} array of even numbers
+   * @memberof NumbersValidator
+   */
+  getEvenNumbersFromArray(arrayOfNumbers) {
+    if (Array.isArray(arrayOfNumbers) &&
+    arrayOfNumbers.every((item) => typeof item === 'number')) {
+      const arrayOfEvenNumbers = arrayOfNumbers.filter(this.isNumberEven);
+      return arrayOfEvenNumbers;
+    } else {
+      throw new Error(`[${arrayOfNumbers}] is not an array of "Numbers"`);
+    }
+  };
 };
 
 module.exports = NumbersValidator;
