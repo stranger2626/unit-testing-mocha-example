@@ -3,7 +3,7 @@
  *
  * @class NumbersValidator
  */
-class NumbersValidator {
+export class NumbersValidator {
   /**
    *Creates an instance of NumbersValidator.
    * @memberof NumbersValidator
@@ -45,4 +45,3 @@ class NumbersValidator {
   };
 };
 
-module.exports = NumbersValidator;

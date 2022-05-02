@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
-const {expect} = require('chai');
-const NumbersValidator = require('../../app/numbers_validator');
+import {expect} from 'chai';
+import {NumbersValidator} from '../../app/numbers_validator.js';
 
 describe(`getEvenNumbersFromArray`, function() {
   let validator;

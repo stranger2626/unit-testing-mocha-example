@@ -1,5 +1,5 @@
-const {expect} = require('chai');
-const NumbersValidator = require('../../app/numbers_validator');
+import {expect} from 'chai';
+import {NumbersValidator} from '../../app/numbers_validator.js';
 
 describe(`isNumberEven positive scenarios`, function() {
   let validator;
