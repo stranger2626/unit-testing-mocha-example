@@ -1,7 +1,7 @@
 # NodeJS Unit Tests Example Using Mocha
 
 ## Requirements
-* [NodeJS](https://nodejs.org/en/) version LTS cersion 12 or above
+* [NodeJS](https://nodejs.org/en/) LTS version 12 or above
 
 ## Installation
 ```npm i```
