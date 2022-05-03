@@ -8,7 +8,7 @@
   "type": "module",
   "scripts": {
     "test": "mocha",
-    "lint": "eslint ./",
+    "lint": "eslint ./ --fix",
     "coverage": "c8 npm test",
     "prepare": "husky install"
   },
