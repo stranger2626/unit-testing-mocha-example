@@ -2,7 +2,7 @@
 import {expect} from 'chai';
 import {NumbersValidator} from '../../app/numbers_validator.js';
 
-describe(`isNumberEven positive scenarios`, function() {
+describe(`isNumberEven`, function() {
   let validator;
   beforeEach(function() {
     validator = new NumbersValidator();
